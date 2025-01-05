@@ -20,7 +20,7 @@ pkgs.mkShell {
     }).rust
 
     (rustChannelOf {
-      version = "1.70.0";
+      version = "1.81.0";
       channel = "stable";
     }).rust
   ];
